@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\_Common">
+      <UniqueIdentifier>{30d20354-bd5a-4b90-9f52-410027126c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_Common\Sys">
+      <UniqueIdentifier>{4cebd119-98a5-4eaa-ba42-23623f3d2f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_Common\Scene">
+      <UniqueIdentifier>{07223f32-3cdb-4f89-b8e8-092a62d6a23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Assets">
+      <UniqueIdentifier>{44c1c23f-d776-4930-b9a8-9678892d8ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Assets\Levels">
+      <UniqueIdentifier>{b171567f-c574-46f3-95c8-edd66fe73b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\_Common">
+      <UniqueIdentifier>{61ae99ff-7912-4dfd-b48d-81bdc72e4657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\_Common\Scene">
+      <UniqueIdentifier>{abbfccd6-d02f-415a-adc6-9e1bee0d49c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\_Common\Sys">
+      <UniqueIdentifier>{74f588f3-e3bf-4c41-9249-02dc7bf4e46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Assets">
+      <UniqueIdentifier>{6d75444b-6f7b-41d5-9909-1e4e6db99f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Assets\Levels">
+      <UniqueIdentifier>{7d2cf7a2-6e17-4e5a-892e-4ac7b8afa2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_Common\Component">
+      <UniqueIdentifier>{63e9d1e1-c430-4c6c-a40d-9620af4a1b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\_Common\Component\Animation">
+      <UniqueIdentifier>{0f7c085b-f438-4925-8bac-514cf6d7cb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\_Common\Component">
+      <UniqueIdentifier>{8026c0b7-8245-494b-91cf-f2a09be2cd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\_Common\Component\Animation">
+      <UniqueIdentifier>{fe8c257c-0ef8-4088-9925-240bca1c7065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Assets\Obj">
+      <UniqueIdentifier>{bd5ce9fb-4f26-4aec-994f-902c776a125d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Assets\Obj">
+      <UniqueIdentifier>{a55e8c34-41ef-4fa4-b9dc-32b871cc9478}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\_Common\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameScene.cpp">
+      <Filter>소스 파일\Assets\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Assets\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Randomizer.cpp">
+      <Filter>소스 파일\_Common\Sys</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\_Common\Sys</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\_Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>소스 파일\_Common\Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>소스 파일\_Common\Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\_Common\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>소스 파일\Assets\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>소스 파일\Assets\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>소스 파일\_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTimer.cpp">
+      <Filter>소스 파일\_Common\Sys</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>소스 파일\_Common\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpScareScene.cpp">
+      <Filter>소스 파일\Assets\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlayScene.cpp">
+      <Filter>소스 파일\Assets\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>소스 파일\Assets\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>소스 파일\Assets\Levels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E_SceneType.h">
+      <Filter>헤더 파일\_Common\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>헤더 파일\_Common\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>헤더 파일\_Common\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameScene.h">
+      <Filter>헤더 파일\Assets\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>헤더 파일\Assets\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>헤더 파일\_Common\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomizer.h">
+      <Filter>헤더 파일\_Common\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>헤더 파일\_Common\Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>헤더 파일\_Common\Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일\_Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\_Common\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>헤더 파일\Assets\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>헤더 파일\_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTimer.h">
+      <Filter>헤더 파일\_Common\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpScareScene.h">
+      <Filter>헤더 파일\Assets\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlayScene.h">
+      <Filter>헤더 파일\Assets\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>헤더 파일\Assets\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>헤더 파일\Assets\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>헤더 파일\Assets\Levels</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

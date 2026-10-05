@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplication.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameBegin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGamePlay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameResult.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CApplication.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameBegin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGamePlay.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameResult.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Texture\Btn_Paper.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Rock.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Scissors.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Img_Win_Cheolsoo.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Img_Win_Younghee.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\InGame_BG.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Main_BG.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Piece.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Profile_Cheolsoo.jpeg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Profile_CheolsooWin.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Profile_Younghee.jpeg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Profile_YoungheeWin.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Exit_Hover.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Exit_Normal.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_HowTo_Hover.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_HowTo_Normal.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Start_Hover.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Start_Normal.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Img_HowTo.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Paper_Hover.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Rock_Hover.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Btn_Scissors_Hover.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Com_Paper.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Com_Rock.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Com_Scissors.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Count_1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Count_2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Texture\Count_3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dummy">
+      <UniqueIdentifier>{cc7cbf19-0953-483f-bfe7-1dd3745f7949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Battle">
+      <UniqueIdentifier>{91d1dbf3-6326-450e-8727-0a5bfa35b1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Battle">
+      <UniqueIdentifier>{49946fa5-4618-447a-b09f-697de33fbf9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffectter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowImage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBattle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle\Battle.cpp">
+      <Filter>소스 파일\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle\Character.cpp">
+      <Filter>소스 파일\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle\Dice.cpp">
+      <Filter>소스 파일\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle\MyHeader.cpp">
+      <Filter>소스 파일\Battle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffectter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBattle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle\Battle.h">
+      <Filter>헤더 파일\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle\Character.h">
+      <Filter>헤더 파일\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle\Dice.h">
+      <Filter>헤더 파일\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle\MyHeader.h">
+      <Filter>헤더 파일\Battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
